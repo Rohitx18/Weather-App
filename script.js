@@ -1,8 +1,7 @@
-
-    
+ 
     const fetchWeather = function (city) {
 
-        const apikey = "enter your api key here"
+        const apikey = "3e5620588d24e8e9e27f8904857953f0"
       fetch(
         "https://api.openweathermap.org/data/2.5/weather?q=" +
           city +
